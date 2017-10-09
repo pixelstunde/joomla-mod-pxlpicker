@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>PXLPicker</name>
+	<author>Christian Friedemann</author>
+	<creationDate>October 2016</creationDate>
+	<copyright>Copyright (C) 2017 pixelstun.de. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>c.friedemann@pixelstun.de</authorEmail>
+	<authorUrl>www.pixelstun.de</authorUrl>
+	<version>1.0.0</version>
+        <description>Simple image picker </description>
+	<files>
+		<filename module="mod_pxlpicker">mod_pxlpicker.php</filename>
+		<folder>tmpl</folder>
+		<folder>js</folder>
+		<folder>css</folder>
+		<filename>helper.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_pxlpicker.ini</language>
+		<language tag="de-DE">de-DE.mod_pxlpicker.ini</language>
+	</languages>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="path"
+					type="media"
+					label="MOD_PXLPICKER_SELECT_IMAGE"
+					description=""
+					directory=""
+				/>
+				<field
+					name="alt"
+					type="text"
+					label="MOD_PXLPICKER_ALTERNATIVE_TEXT"
+					description=""
+					directory=""
+				/>
+				<field
+					name="title"
+					type="text"
+					label="MOD_PXLPICKER_TITLE"
+					description=""
+					directory=""
+				/>
+				<field
+					name="id"
+					type="text"
+					label="MOD_PXLPICKER_CSS_ID"
+					description=""
+					directory=""
+				/>
+				<field
+					name="class"
+					type="text"
+					label="MOD_PXLPICKER_CSS_CLASS"
+					description=""
+					directory=""
+				/>
+				<field
+					name="inline"
+					type="textarea"
+					label="MOD_PXLPICKER_INLINE_CSS"
+					description=""
+					directory=""
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
