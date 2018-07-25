@@ -66,6 +66,13 @@
 					description=""
 					directory=""
 				/>
+                <field
+                        name="URL"
+                        type="text"
+                        label="MOD_PXLPICKER_URL"
+                        description=""
+                        directory=""
+                />
 			</fieldset>
 		</fields>
 	</config>

@@ -18,5 +18,6 @@ $id			= $params->get('id');
 $class 		= $params->get('class');
 $inline		= $params->get('inline');
 $title		= $params->get('title');
+$url        = $params->get('url');
 
 require JModuleHelper::getLayoutPath('mod_pxlpicker', $params->get('layout', 'default'));
