@@ -7,8 +7,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>c.friedemann@pixelstun.de</authorEmail>
 	<authorUrl>www.pixelstun.de</authorUrl>
-	<version>1.0.0</version>
-        <description>Simple image picker </description>
+	<version>1.0.1</version>
+        <description>Simple image picker, now with different layouts </description>
 	<files>
 		<filename module="mod_pxlpicker">mod_pxlpicker.php</filename>
 		<folder>tmpl</folder>
