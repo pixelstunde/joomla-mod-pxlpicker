@@ -73,6 +73,7 @@
                         description=""
                         directory=""
                 />
+				<field type="modulelayout" name="layout" description="JFIELD_ALT_MODULE_LAYOUT_DESC" label="JFIELD_ALT_LAYOUT_LABEL"/>
 			</fieldset>
 		</fields>
 	</config>
